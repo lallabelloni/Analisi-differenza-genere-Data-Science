@@ -11,7 +11,6 @@ Ho inoltre rimosso gli esami e i corsi con meno di 50 partecipanti, quindi i cor
 Le idoneità, gli ofa e gli esami di inglese non sono stati considerati
 Per alcune analisi ho aggregato i dati in modo da avere un unico esame per insegnamenti vecchi e nuovi, ad esempio BASI DI DATI 2, aggregato con BASI DI DATI. Non ho mantenuto questa scelta per le analisi specifiche sulla tipologia di corso. Ho quindi utilizzato due database principali per tutto il progetto.
 
-
 Le analisi effettuate si riferiscono ai seguenti argomenti
 1- Studenti per corso
 2- Voti per genere
@@ -23,3 +22,11 @@ Le analisi effettuate si riferiscono ai seguenti argomenti
 8- Singolo esame
 9- Voti per anno di corso
 10- Voti per genere del docente
+
+-----------------------------------------------------------
+Considerazioni:
+
+-L'analisi si rifersisce solo alla laurea triennale
+
+-Avendo preso solo esami con almeno 50 studdenti passati, alcuni corsi vengono esclusi a prescindere, come SEI2
+Abbasso la soglia? forse posso fare l'analisi degli esami dei corsi con pt_vecchi
