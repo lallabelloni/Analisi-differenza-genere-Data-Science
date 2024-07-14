@@ -23,6 +23,7 @@ Le analisi effettuate si riferiscono ai seguenti argomenti
 9- Voti per anno di corso
 10- Voti per genere del docente
 
+Un ulteriore analisi è stata effettuata su un database del corso di Basi di dati, messo a disposizione gentilmente dalla professoressa Guerrini, ha permesso di mettere a confronto le valutazioni tra quiz, scritti e progetto 
 -----------------------------------------------------------
 Considerazioni:
 
