@@ -17,7 +17,7 @@ Le analisi effettuate si riferiscono ai seguenti argomenti
 1- Studenti per corso
 2- Voti per genere
 3- Lauree: per anno, durata, valutazione
-4- Diploma superiore: voto
+4- Diploma superiore
 5- Voto diploma superiore e Laurea
 6- Voti nel Periodo Pandemia
 7- Esami scritti o orali
