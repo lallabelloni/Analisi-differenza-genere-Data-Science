@@ -11,6 +11,8 @@ Ho inoltre rimosso gli esami e i corsi con meno di 50 partecipanti, quindi i cor
 Le idoneità, gli ofa e gli esami di inglese non sono stati considerati
 Per alcune analisi ho aggregato i dati in modo da avere un unico esame per insegnamenti vecchi e nuovi, ad esempio BASI DI DATI 2, aggregato con BASI DI DATI. Non ho mantenuto questa scelta per le analisi specifiche sulla tipologia di corso. Ho quindi utilizzato due database principali per tutto il progetto.
 
+Ho stimato che un campione necessario alle analisi in base alla deviazione standard e un livello di confidenza del 95%, è di 90 elementi
+
 Le analisi effettuate si riferiscono ai seguenti argomenti
 1- Studenti per corso
 2- Voti per genere
@@ -23,7 +25,7 @@ Le analisi effettuate si riferiscono ai seguenti argomenti
 9- Voti per anno di corso
 10- Voti per genere del docente
 
-Un ulteriore analisi è stata effettuata su un database del corso di Basi di dati, messo a disposizione gentilmente dalla professoressa Guerrini, ha permesso di mettere a confronto le valutazioni tra quiz, scritti e progetto 
+Un ulteriore analisi è stata effettuata su un database del corso di Basi di dati, messo a disposizione gentilmente dalla professoressa Guerrini, ha permesso di mettere a confronto le valutazioni tra quiz, scritti e progetto per genere
 -----------------------------------------------------------
 Considerazioni:
 
