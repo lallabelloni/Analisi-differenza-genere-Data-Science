@@ -24,3 +24,6 @@ Additionally, a specific analysis was performed on data from the "Database" cour
 
 ### Sample Size
 A sample size of 90 students was determined to be necessary for the analysis based on standard deviation and a 95% confidence interval.
+
+## The final result
+https://lauuubi.com/tesi-en
