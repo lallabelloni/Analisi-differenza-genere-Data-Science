@@ -1,35 +1,26 @@
-Buongiorno, 
-La mia tesi riguarda l'analisi della disparità di genere in ambito scientifico presso l’Università degli studi di Genova
+Gender Disparity Analysis at the University of Genoa
+This repository contains the code used for my thesis, which analyzes gender disparity in the Bachelor's degree program in Computer Science at the University of Genoa. The analysis is based on two datasets provided by CEDIA, covering graduation data from 2010 to 2023 and exam grades from 1997 to June 2024.
 
-In particolare ho analizzato i dati riguardanti il dipartimento di informatica Triennale negli anni dal 2010 al 2023 per le lauree, mentre dal 1997 sino a giugno 2024 per i voti
-I dati raccolti provengono dal CEDIA, Centro Dati, Informatica di Ateneo
+Data Processing
+The data was cleaned to include only positively graded exams. Courses with fewer than 50 participants, elective courses, qualifications, OFA exams, and English language exams were excluded. In some cases, old and new versions of courses were merged for aggregated analyses.
 
-Per le analisi ho utilizzato il linguaggio di programmazione python, in particolare con l'aiuto delle librerie pandas, seaborn, scipy, ..
+Tools and Libraries
+The analysis was conducted using Python, with the following key libraries:
 
-Nella pulizia dei dati ho dovuto considerare solo esami superati positivamente perchè non avevo dati sufficienti ad un'analisi completa
-Ho inoltre rimosso gli esami e i corsi con meno di 50 partecipanti, quindi i corsi a scelta
-Le idoneità, gli ofa e gli esami di inglese non sono stati considerati
-Per alcune analisi ho aggregato i dati in modo da avere un unico esame per insegnamenti vecchi e nuovi, ad esempio BASI DI DATI 2, aggregato con BASI DI DATI. Non ho mantenuto questa scelta per le analisi specifiche sulla tipologia di corso. Ho quindi utilizzato due database principali per tutto il progetto.
+Pandas: Data manipulation and processing
+Seaborn: Data visualization
+Scipy: Statistical analysis
+Analysis Overview
+The main analyses performed in this project include:
 
-Ho stimato che un campione necessario alle analisi in base alla deviazione standard e un livello di confidenza del 95%, è di 90 elementi
+Enrollment trends by course
+Grade distribution by gender
+Graduation data (year, duration, and final grades)
+Correlation between high school diploma grades and university performance
+Grade trends during the pandemic
+Performance in written vs. oral exams
+Analysis of grades by year of study and by instructor gender
+Additionally, a specific analysis was performed on data from the "Database" course, comparing quiz, written exam, and project performance by gender.
 
-Le analisi effettuate si riferiscono ai seguenti argomenti
-1- Studenti per corso
-2- Voti per genere
-3- Lauree: per anno, durata, valutazione
-4- Diploma superiore
-5- Voto diploma superiore e Laurea
-6- Voti nel Periodo Pandemia
-7- Esami scritti o orali
-8- Singolo esame
-9- Voti per anno di corso
-10- Voti per genere del docente
-
-Un ulteriore analisi è stata effettuata su un database del corso di Basi di dati, messo a disposizione gentilmente dalla professoressa Guerrini, ha permesso di mettere a confronto le valutazioni tra quiz, scritti e progetto per genere
------------------------------------------------------------
-Considerazioni:
-
--L'analisi si rifersisce solo alla laurea triennale
-
--Avendo preso solo esami con almeno 50 studdenti passati, alcuni corsi vengono esclusi a prescindere, come SEI2
-Abbasso la soglia? forse posso fare l'analisi degli esami dei corsi con pt_vecchi
+Sample Size
+A sample size of 90 students was determined to be necessary for the analysis based on standard deviation and a 95% confidence interval.
